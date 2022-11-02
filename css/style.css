@@ -27,3 +27,13 @@ ul {
 .fa-brands {
       color: yellow;
 }
+
+.logo {
+      width: 150px;
+      height: 150px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 500%;
+      background: black;
+      position: absolute;
+}
