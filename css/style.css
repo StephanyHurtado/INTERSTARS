@@ -13,3 +13,12 @@ h1 {
 .fa-brands {
       color: yellow;
 }
+.pestañas{
+      background-color: yellow;
+      max-width: 50%;
+      color: black;
+      list-style: none;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-evenly;
+}
