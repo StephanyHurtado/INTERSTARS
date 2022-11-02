@@ -1,0 +1,15 @@
+@font-face {
+      font-family: 'starwars';
+      src: url(../fonts/star_jedi/starjedi/Starjedi.ttf);
+}
+body {
+      background-image: url("../img/fondo_interstars.jpg");
+}
+h1 {
+      font-family: 'starwars';
+     color:yellow;
+}
+
+.fa-brands {
+      color: yellow;
+}
