@@ -33,6 +33,63 @@ ul {
       height: 150px;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
+      
+      
+      ul li{
+
+      display: inline-block;
+      margin-right:50px;
+      list-style-type: none;
+}
+li a{
+      color: #fff;
+      font-size: 1.3em;
+      text-decoration: none;
+      text-shadow: 2px 2px  4px #000000;
+}
+
+
+.pie{
+      background: #3b3a3a;
+      text-align: center;
+      padding:5px;
+      margin-top:50px;
+      min-height:80px;
+      color: #fff;
+      font-family: helvetica, arial,sans-serif;
+      border-top: #DBCB39 10px solid;
+      clear: both;
+
+
+  
+  }
+
+  .autor{
+      margin-top:10px;
+  }
+  
+  
+
+    .redes a {
+      color: #DBCB39;
+      font-size: 2rem;
+      margin: 0 .5rem;
+      opacity: .7;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease; 
+      
+  }
+  
+  .redes a:hover {
+      opacity: 1;
+  }
+      
+      
+      
+      
+      
+      
+      
       border-radius: 500%;
       background: black;
       position: absolute;
