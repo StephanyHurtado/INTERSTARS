@@ -14,11 +14,14 @@ h1 {
       color: yellow;
 }
 .pestañas{
-      background-color: yellow;
-      max-width: 50%;
       color: black;
       list-style: none;
       display: flex;
       align-items: baseline;
       justify-content: space-evenly;
+}
+
+.menu{
+      background-color: yellow;
+      
 }
