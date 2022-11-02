@@ -7,9 +7,23 @@ body {
 }
 h1 {
       font-family: 'starwars';
-     color:yellow;
+      font-size: 50px;
+      color:yellow;
+}
+ul {
+      display: flex;
+      justify-content: space-around;
 }
 
+ .menu {
+      list-style: none;
+      font-size: 20px;
+      background-color: yellow;
+      margin: 5px;
+      padding: 10px;
+      border-radius: 20px;
+      
+ }
 .fa-brands {
       color: yellow;
 }
