@@ -1,3 +1,8 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
 @font-face {
       font-family: 'starwars';
       src: url(../fonts/star_jedi/starjedi/Starjedi.ttf);
@@ -7,14 +12,33 @@ body {
 }
 h1 {
       font-family: 'starwars';
-      font-size: 50px;
-      color:yellow;
+      font-size: 6rem;
+      color:rgb(222, 222, 56);
+      opacity: 80%;
+      text-shadow: 5px 5px orange;
+      text-align: center;
+}
+h3{
+      color: white;
+      text-align: center;
 }
 ul {
       display: flex;
       justify-content: space-around;
 }
-
+.navbar {
+      margin: 3% 20% 0 20%;
+}
+#estrella {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10% 30% 0% 30%; 
+      
+}
+.tam_estrella {
+      width: 50%;
+}
  .menu {
       list-style: none;
       font-size: 20px;
