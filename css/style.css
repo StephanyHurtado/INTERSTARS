@@ -9,45 +9,149 @@
 }
 body {
       background-image: url("../img/fondo_interstars.jpg");
+      height: 100vh;
+}
+header {
+      display: flex;
+      justify-content: space-around;
 }
 h1 {
       font-family: 'starwars';
-      font-size: 6rem;
+      font-size: 5.5rem;
       color:rgb(222, 222, 56);
       opacity: 80%;
       text-shadow: 5px 5px orange;
       text-align: center;
+      margin-bottom: 3%;
 }
 h3{
       color: white;
       text-align: center;
+      margin: 2%;
+}
+h4 {
+      margin: 2%;
+      text-align: left;
+      font-size: 1.2rem;
 }
 ul {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      align-items: center;
 }
+li {
+      list-style:none;
+}
+a {
+      text-decoration: none;
+ }
+form {
+      padding: 2%;
+      text-align: center;
+      background-color: yellow;
+      opacity:20%;
+      max-width: 50%;        
+      margin-left: 25%;
+      border-radius: 20px;
+      }
+
+input {
+      font-size: 20px;
+      padding: 5px 20px ;
+      border-radius: 40px;
+      color: black;
+      }
 .navbar {
-      margin: 3% 20% 0 20%;
+      margin: 10% 20% 0 20%;  
+      margin-left: -300px;
+      grid-column: 6/8;
+      
+}
+#espacio {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+}
+#container {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
 }
 #estrella {
+      grid-column: 2/3;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 10% 30% 0% 30%; 
-      
+      margin: 5% 30% 0% 30%; 
+      }
+#servicios {
+      display: flex;
+      justify-content: space-around;
+}
+.logo {
+      grid-column: 2/3;
+      margin: 10%;
 }
 .tam_estrella {
-      width: 50%;
+      width: 80%;
 }
  .menu {
       list-style: none;
       font-size: 20px;
       background-color: yellow;
       margin: 5px;
-      padding: 10px;
+      padding: 12px 20px;
       border-radius: 20px;
       
+ }
+ 
+ .fa-duotone {
+      color: yellow;
+ }
+ .fa-solid {
+      color: yellow;
+      margin: 100px;
  }
 .fa-brands {
       color: yellow;
 }
+/*PIE DE PAGINA*/
+
+.pie{
+      clear: both;
+      background: #3b3a3a;
+      text-align: center;
+      padding:5px;
+      margin-top:50px;
+      min-height:80px;
+      color:#fff;
+      font-family: helvetica, arial,sans-serif;
+      border-top: #DBCB39 10px solid;
+  }
+  .autor{
+      margin-top:10px;
+      text-align: center;
+  }
+  
+.redes{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+  }
+ .redes a {
+      color: #DBCB39;
+      font-size: 2rem;
+      margin: 0 .5rem;
+      opacity: .7;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease; 
+  }
+  .redes a:hover {
+      opacity: 1;
+  }
