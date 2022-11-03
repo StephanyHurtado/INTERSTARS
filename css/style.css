@@ -1,3 +1,8 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
 @font-face {
       font-family: 'starwars';
       src: url(../fonts/star_jedi/starjedi/Starjedi.ttf);
@@ -5,23 +10,128 @@
 body {
       background-image: url("../img/fondo_interstars.jpg");
 }
+header {
+      display: flex;
+      justify-content: space-around;
+}
 h1 {
       font-family: 'starwars';
-     color:yellow;
+      font-size: 3rem;
+      color:rgb(222, 222, 56);
+      opacity: 80%;
+      text-shadow: 5px 5px orange;
+      text-align: center;
 }
-
+h3{
+      color: white;
+      text-align: center;
+      font-style: oblique;
+}
+ul {
+      display: flex;
+      justify-content: space-around;
+}
+h4 {
+      color: white;
+      margin: 2%;
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+li {
+      list-style:none;
+}
+a {
+      text-decoration: none;
+ }
+form {
+      padding: 5% ;
+      border-radius: 20px;
+      text-align: center;
+      background-color: yellow;
+      opacity:20%;
+      max-width: 40%;
+      max-height: 20px;
+      height: 20%;
+      margin-left: 30%;
+      border-radius: 20px;
+      }
+input {
+      padding: 5px 20px ;
+      border-radius: 40px;
+      color: black;
+      }
+.navbar {
+      margin: 10% 20% 0 20%;
+      margin-left: -300px;
+      font-size: ;
+}
+#estrella {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5% 30% 0% 43%;
+      max-width: 200px;
+}
+.logo {
+      display: flex;
+      margin-right: 100%;
+}
+.tam_estrella {
+      width: 50%;
+}
+ .menu {
+      list-style: none;
+      font-size: 20px;
+      background-color: yellow;
+      margin: 5px;
+      padding: 10px;
+      border-radius: 20px;
+ }
+ .chat {
+      color: yellow;
+ }
+ .fa-solid {
+      color: yellow;
+      margin: 100px;
+ }
 .fa-brands {
       color: yellow;
 }
-.pestañas{
-      color: black;
-      list-style: none;
-      display: flex;
-      align-items: baseline;
-      justify-content: space-evenly;
-}
-
-.menu{
-      background-color: yellow;
-      color: rebeccapurple;
-}
+/*PIE DE PAGINA*/
+.pie{
+      clear: both;
+      background: #3B3A3A;
+      text-align: center;
+      padding:35px;
+      margin-top:50px;
+      min-height:80px;
+      color:#fff;
+      font-family: helvetica, arial,sans-serif;
+      border-top: #DBCB39 10px solid;
+  }
+  .autor{
+      margin-top:10px;
+      text-align: center;
+  }
+.redes{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+  }
+ .redes a {
+      color: #DBCB39;
+      font-size: 2rem;
+      margin: 0 .5rem;
+      opacity: .7;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease;
+  }
+  .redes a:hover {
+      opacity: 1;
+  }
