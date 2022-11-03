@@ -1,4 +1,68 @@
-@font-face {
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+
+header {
+ 
+      width: 100%;
+      padding-right: 5px;
+      background-color: #444343;
+      overflow: hidden;
+      border-bottom:#b7905a 10px solid;   
+  }
+
+  .navbar .navbar-brand {
+
+      color: #B7905A;
+      font-size: 1.4rem;
+      font-family: Caveat;
+      margin: 0.8rem;
+    } 
+    
+    .navbar .nav-item  .nav-link {
+      color: #B7905A;
+    
+    }
+  
+
+  .encabezado ul li{
+
+      display: inline-block;
+      margin-right:50px;
+      list-style-type: none;
+  
+  
+  }
+
+  nav li a{
+
+      color: #fff;
+      font-size: 1.3em;
+      text-decoration: none;
+      text-shadow: 2px 2px  4px #000000;
+  
+  }
+
+   nav a:hover{
+      color:#640e0e;
+      border-bottom: 2px solid #1f912e;
+      text-decoration: none;
+      
+  }
+  
+  .logo {
+      float: left;
+      margin:20px 20px 20px 30px;
+      position: relative; 
+      box-shadow: 2px 2px  4px #000000;
+      border-radius: 60px;
+      
+  }
+
+
+  @font-face {
       font-family: 'starwars';
       src: url(../fonts/star_jedi/starjedi/Starjedi.ttf);
 }
@@ -15,42 +79,44 @@ h1 {
 }
 
 
-
-
-ul li{
-
-      display: inline-block;
-      margin-right:50px;
-      list-style-type: none;
-}
-li a{
-      color: #fff;
-      font-size: 1.3em;
-      text-decoration: none;
-      text-shadow: 2px 2px  4px #000000;
-}
-
+/*PIE DE PAGINA*/
 
 .pie{
+      
+      
+      clear: both;
       background: #3b3a3a;
       text-align: center;
       padding:5px;
       margin-top:50px;
       min-height:80px;
-      color: #fff;
+      color:#fff;
       font-family: helvetica, arial,sans-serif;
       border-top: #DBCB39 10px solid;
-      clear: both;
-
+      
 
   
   }
 
   .autor{
+     
       margin-top:10px;
+      text-align: center;
   }
   
-  
+  .redes{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    
+
+  }
 
     .redes a {
       color: #DBCB39;
